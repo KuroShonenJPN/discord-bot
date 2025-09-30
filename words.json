@@ -1,3 +1,12 @@
+# Vocabulary Configuration
+
+#Add your own words to the JSON file to expand the random selection:
+
+## Structure:
+#- `"odborne"` = **Technical/Formal terms** (add sophisticated or professional words)
+#- `"vulgarismy"` = **Vulgar terms** (add swear words or insults)
+
+## Example of adding new words:
 {
   "odborne": [
     "kvantový",
@@ -72,4 +81,5 @@
     "mamrd",
     "píčus"
   ]
+
 }

@@ -16,8 +16,9 @@ class Insults(commands.Cog):
         vulgar = random.choice(data["vulgarismy"])
         await interaction.response.send_message(
             f"{user.mention}, ty {odborny} {vulgar}!",
-            ephemeral=False  # když bys chtěl, aby to viděl jen vyvolávač, dej True
+            ephemeral=False  #If you want this to be visible only to the person who used the command, set it to True
         )
 
 async def setup(bot):
+
     await bot.add_cog(Insults(bot))

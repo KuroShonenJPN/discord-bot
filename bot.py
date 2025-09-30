@@ -11,7 +11,7 @@ bot = commands.Bot(command_prefix="!", intents=intents)
 
 @bot.event
 async def on_ready():
-    await bot.tree.sync()  # zaregistruje slash příkazy
+    await bot.tree.sync()
     print(f"Přihlášen jako {bot.user}")
 
 async def load_cogs():
@@ -25,4 +25,5 @@ async def main():
         await bot.start(TOKEN)
 
 import asyncio
+
 asyncio.run(main())       

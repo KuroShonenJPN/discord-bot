@@ -15,8 +15,7 @@ Discord bot s českými příkazy. Bot generuje kreativní nadávky kombinací o
 - **requirements.txt**: Python dependencies (discord.py, python-dotenv)
 
 ## Setup Requirements
-1. **DISCORD_TOKEN**: Token Discord bota v Replit Secrets
-   - Přidán přes Secrets tool v Replit
+1. **DISCORD_TOKEN**: Token Discord bota
    - Získán z: https://discord.com/developers/applications
    
 2. **Discord Bot Permissions**:
@@ -29,7 +28,7 @@ Discord bot s českými příkazy. Bot generuje kreativní nadávky kombinací o
 - `/kurobot decode <text>` - Dekóduje SGA font zpět do normálního textu
 
 ## Running the Bot
-Bot běží automaticky přes "Discord Bot" workflow. Po přidání DISCORD_TOKEN do Secrets se bot připojí k Discordu a je připraven k použití.
+Bot běží automaticky přes "Discord Bot" workflow. Po přidání DISCORD_TOKEN do .env se bot připojí k Discordu a je připraven k použití.
 
 ## Language
 Czech (čeština)
